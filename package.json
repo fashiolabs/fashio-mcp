@@ -1,10 +1,10 @@
 {
   "name": "fashio-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MCP server for the Fashio API — generate on-model fashion photos from a coding agent.",
   "type": "module",
   "bin": {
-    "fashio-mcp": "./dist/index.js"
+    "fashio-mcp": "dist/index.js"
   },
   "main": "./dist/index.js",
   "scripts": {
@@ -26,7 +26,14 @@
   "bugs": {
     "url": "https://github.com/fashiolabs/fashio-mcp/issues"
   },
-  "keywords": ["mcp", "model-context-protocol", "fashion", "ai", "claude", "fashio"],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "fashion",
+    "ai",
+    "claude",
+    "fashio"
+  ],
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.30.0",
     "zod": "^3.24.1"
